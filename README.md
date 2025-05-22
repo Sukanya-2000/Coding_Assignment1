@@ -103,8 +103,12 @@ Identifies and reconciles customer contact information by email and/or phone num
 ---
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/5184c12c-5af2-491e-a8d8-58b470263e15)
 
-*Add screenshots of working API responses from Postman here to demonstrate successful identification and reconciliation.*
+![image](https://github.com/user-attachments/assets/5829a1aa-27a7-403d-91ce-d63029d1ba02)
+
+![image](https://github.com/user-attachments/assets/4d72f44f-ed2c-4694-a106-ad066e647a5a)
+
 
 ---
 
@@ -114,11 +118,4 @@ Identifies and reconciles customer contact information by email and/or phone num
 
 ---
 
-## 📄 License
 
-This project is for demonstration purposes only as part of a technical assignment.
-
-```
-
-Let me know once you've added the Postman screenshots — I can help you embed those with proper markdown image syntax too.
-```
