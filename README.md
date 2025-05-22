@@ -1,6 +1,4 @@
-Here’s the **complete `README.md` file** in a **GitHub-friendly editor format** — just copy and paste it into your repo's `README.md` file:
 
-````markdown
 # 🧩 Bitespeed Identity Reconciliation API
 
 This project is part of the Bitespeed backend assignment. It implements an identity reconciliation system to manage and unify customer contacts based on their phone numbers and email addresses.
