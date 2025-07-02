@@ -3,6 +3,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import router from './routes';
 import sequelize from './db/sequelize';
+import * as dotenv from 'dotenv';
 
 const app = express();
 app.use(bodyParser.json());
