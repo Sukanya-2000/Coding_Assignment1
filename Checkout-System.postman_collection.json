@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "866639a4-9d81-4b0d-9dd8-48d5d83dffa2",
+		"name": "Checkout-System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39300940",
+		"_collection_link": "https://smart-marine.postman.co/workspace/Smartmarine~f9f9ef9f-6e89-4396-8f8f-e38a6c63f568/collection/39300940-866639a4-9d81-4b0d-9dd8-48d5d83dffa2?action=share&source=collection_link&creator=39300940"
+	},
+	"item": [
+		{
+			"name": "Get All Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API}}/api/products",
+					"host": [
+						"{{API}}"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{API}}/api/cart",
+					"host": [
+						"{{API}}"
+					],
+					"path": [
+						"api",
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Items into cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{API}}/api/cart/:cartId/items",
+					"host": [
+						"{{API}}"
+					],
+					"path": [
+						"api",
+						"cart",
+						":cartId",
+						"items"
+					],
+					"variable": [
+						{
+							"key": "cartId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API}}/api/cart/:cartId",
+					"host": [
+						"{{API}}"
+					],
+					"path": [
+						"api",
+						"cart",
+						":cartId"
+					],
+					"variable": [
+						{
+							"key": "cartId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
